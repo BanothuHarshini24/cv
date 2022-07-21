@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="mailto:banothubharath05@gmail.com" method="post" autocomplete="on" enctype="text/plain">
+        <input type="text" id="name" name="name" value="" autofocus>
+        <label for="name">NAME</label>
+        <br><br>
+        <input type="email" id="email" name="email" required>
+        <label for="email">EMAIL</label>
+        <br><br>
+        <input type="password" id="password" name="password" size="6" maxlength="6">
+        <label for="password">PASSWORD</label>
+        <br><br>
+        <label for="class">CLASS</label>
+        <select id="class" name="class" >
+            <option value="fifth">Fifth</option>
+            <option value="SifXth">SIXth</option>
+            <option value="SEVENth">seventh</option>
+            <option value="eigHth">EIGHTH</option>
+
+        </select>
+        <br>
+        <p>choose a flower</p>
+        <input list="flowers">
+        <datalist id="flowers" >
+            <option value="rose"></option>
+            <option value="lotus"></option>
+            <option value="lily"></option>
+        </datalist>
+        <br><br> 
+        <input type="date" id="birthday" name="birthday" >
+        <label for="">birthday date</label>
+        <br><br>
+        <input type="color" id="color" name="birthdaycolor" >
+        <label for="color">choose your favourite colour</label>
+        <br><br>
+        <input type="time" id="birthdaytime" name="birthdaytime" >
+        <label for="">birth time</label>
+        <br><br>
+        <P>CHOOSE YOU FAV CAR</P>
+        <input type="radio" id="cars" name="cars" value="cars" >
+        <label for="cars">BENZ</label>
+        <input type="radio" id="cars" name="cars" value="cars" >
+        <label for="cars">AUDI</label>
+        <input type="radio" id="cars" name="cars" value="cars" >
+        <label for="cars">SWIFT</label>
+        <br><br>
+        <textarea name="text" rows="10" cols="50">
+            web development is interesting
+        </textarea>
+        <br>
+        <fieldset>
+            <legend>games</legend>
+            <label for="basketball">Basketball</label>
+            <input type="text" id="basketball" name="basketball" ><br><br>
+            <label for="football">football</label>
+            <input type="text" id="football" name="football" >
+        </fieldset>
+        <br>
+        <button type="button" onclick="alert('form will be submitted')">click me</button>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
